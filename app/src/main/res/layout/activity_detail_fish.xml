@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5FCF9"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/fishImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/scan"
+        android:contentDescription="Gambar ikan" />
+
+
+    <TextView
+        android:id="@+id/fishNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ikan Gurami"
+        android:textColor="#3B6D57"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/fishDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Gurami atau gurame (Osphronemus gouramy) adalah salah satu ikan air tawar yang populer sebagai ikan konsumsi di Asia Tenggara dan Asia Selatan. Di samping itu, gurami juga sering dipelihara dalam akuarium. Selain dikenal dengan nama gurami, ikan ini juga memiliki beberapa sebutan lokal seperti gurame, grameh, kalui, ikan kali, dan lain-lain."
+        android:textColor="#3B6D57"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp" />
+
+    <Button
+        android:id="@+id/searchRecipeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Cari Resep"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
